@@ -45,6 +45,7 @@ public class RewardService {
 			return CustomerEligibility.CUSTOMER_INELIGIBLE.getEligibilityDesc();
 		}
 		
+		//FIXME: use StringUtils to delimit with commas instead
 		for (int i=0; i<rewards.size(); i++) {
 			Reward reward = rewards.get(i);
 			
