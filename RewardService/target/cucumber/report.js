@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri('RewardsService\AcceptanceTests\acceptanceCriteria.feature');
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri('RewardService\AcceptanceTests\acceptanceCriteria.feature');
 formatter.feature({
   "id": "rewards-service",
   "description": "",
@@ -30,17 +30,17 @@ formatter.step({
   "line": 9
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_channel_subscriptions_to_the_Movies_and_Music_channels()"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_channel_subscriptions_to_the_Movies_and_Music_channels()"
 });
 formatter.result({
-  "duration": 391043480,
+  "duration": 299672822,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 229102,
+  "duration": 249614,
   "status": "passed"
 });
 formatter.match({
@@ -50,10 +50,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_rewarded(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_rewarded(String)"
 });
 formatter.result({
-  "duration": 3144738,
+  "duration": 3056350,
   "status": "passed"
 });
 formatter.scenario({
@@ -92,17 +92,17 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
 });
 formatter.result({
-  "duration": 194338,
+  "duration": 211432,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 187499,
+  "duration": 194905,
   "status": "passed"
 });
 formatter.match({
@@ -112,10 +112,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_rewarded(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_rewarded(String)"
 });
 formatter.result({
-  "duration": 198897,
+  "duration": 202883,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,17 +154,17 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
 });
 formatter.result({
-  "duration": 64399,
+  "duration": 74657,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 186929,
+  "duration": 172108,
   "status": "passed"
 });
 formatter.match({
@@ -174,10 +174,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_shown_the_message(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_shown_the_message(String)"
 });
 formatter.result({
-  "duration": 202317,
+  "duration": 214281,
   "status": "passed"
 });
 formatter.scenario({
@@ -216,17 +216,17 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
 });
 formatter.result({
-  "duration": 72378,
+  "duration": 84345,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 195478,
+  "duration": 204023,
   "status": "passed"
 });
 formatter.match({
@@ -236,10 +236,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_rewarded(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_rewarded(String)"
 });
 formatter.result({
-  "duration": 196618,
+  "duration": 212001,
   "status": "passed"
 });
 formatter.scenario({
@@ -278,17 +278,17 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
 });
 formatter.result({
-  "duration": 73518,
+  "duration": 80355,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 189209,
+  "duration": 197754,
   "status": "passed"
 });
 formatter.match({
@@ -298,10 +298,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_shown_the_message(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_shown_the_message(String)"
 });
 formatter.result({
-  "duration": 321997,
+  "duration": 222829,
   "status": "passed"
 });
 formatter.scenario({
@@ -340,17 +340,17 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_a_subscription_to_a_specified_channel(String)"
 });
 formatter.result({
-  "duration": 71808,
+  "duration": 81495,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 213145,
+  "duration": 201744,
   "status": "passed"
 });
 formatter.match({
@@ -360,10 +360,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_rewarded(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_rewarded(String)"
 });
 formatter.result({
-  "duration": 196048,
+  "duration": 250754,
   "status": "passed"
 });
 formatter.scenario({
@@ -396,17 +396,17 @@ formatter.step({
   "line": 69
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_channel_subscriptions()"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_channel_subscriptions()"
 });
 formatter.result({
-  "duration": 41033,
+  "duration": 46161,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_not_eligible_for_rewards()"
+  "location": "RewardServiceStepDefs.I_am_not_eligible_for_rewards()"
 });
 formatter.result({
-  "duration": 208016,
+  "duration": 214851,
   "status": "passed"
 });
 formatter.match({
@@ -416,10 +416,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_shown_the_message(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_shown_the_message(String)"
 });
 formatter.result({
-  "duration": 183510,
+  "duration": 182367,
   "status": "passed"
 });
 formatter.scenario({
@@ -452,17 +452,17 @@ formatter.step({
   "line": 79
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_channel_subscriptions()"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_channel_subscriptions()"
 });
 formatter.result({
-  "duration": 41603,
+  "duration": 40463,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.there_is_a_technical_failure()"
+  "location": "RewardServiceStepDefs.there_is_a_technical_failure()"
 });
 formatter.result({
-  "duration": 210295,
+  "duration": 213711,
   "status": "passed"
 });
 formatter.match({
@@ -472,10 +472,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_shown_the_message(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_shown_the_message(String)"
 });
 formatter.result({
-  "duration": 202316,
+  "duration": 194904,
   "status": "passed"
 });
 formatter.scenario({
@@ -508,17 +508,17 @@ formatter.step({
   "line": 89
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_am_a_customer_with_channel_subscriptions()"
+  "location": "RewardServiceStepDefs.I_am_a_customer_with_channel_subscriptions()"
 });
 formatter.result({
   "duration": 41033,
   "status": "passed"
 });
 formatter.match({
-  "location": "RewardsServiceStepDefs.I_supply_an_invalid_account_number()"
+  "location": "RewardServiceStepDefs.I_supply_an_invalid_account_number()"
 });
 formatter.result({
-  "duration": 208015,
+  "duration": 216560,
   "status": "passed"
 });
 formatter.match({
@@ -528,10 +528,10 @@ formatter.match({
       "offset": 34
     }
   ],
-  "location": "RewardsServiceStepDefs.I_expect_to_be_shown_the_message(String)"
+  "location": "RewardServiceStepDefs.I_expect_to_be_shown_the_message(String)"
 });
 formatter.result({
-  "duration": 185789,
+  "duration": 185216,
   "status": "passed"
 });
 });
