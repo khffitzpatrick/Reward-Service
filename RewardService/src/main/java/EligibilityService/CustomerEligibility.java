@@ -1,5 +1,6 @@
 package EligibilityService;
 
+//FIMXE: TECHNICAL_FAILURE and INVALID_ACCOUNT shoudl be exceptions instead
 public enum CustomerEligibility {
 	CUSTOMER_ELIGIBLE(""), 
 	CUSTOMER_INELIGIBLE("You are not eligible for any rewards"), 
